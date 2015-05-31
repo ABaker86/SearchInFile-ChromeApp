@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "SearchInFile",
+  "short_name": "SearchInFile",
+  "description": "Search for text within a single or multiple files.",
+  "version": "1.0.1",
+  "minimum_chrome_version": "38",
+
+  "icons": {
+    "16": "assets/logo_16.png",
+    "48":"assets/logo_48.png",
+    "128": "assets/logo_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
